@@ -13,6 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+// Test commit. Hi!
+
 package com.google.firebase.codelab.friendlychat;
 
 import android.content.Intent;
@@ -92,6 +95,7 @@ public class MainActivity extends AppCompatActivity implements
         TextView messengerTextView;
         CircleImageView messengerImageView;
 
+        // Hello World!
         public MessageViewHolder(View v) {
             super(v);
             messageTextView = (TextView) itemView.findViewById(R.id.messageTextView);
